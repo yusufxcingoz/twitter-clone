@@ -1,0 +1,6 @@
+.messages {
+  flex: 0.3;
+  border-right: 1px solid var(--twitter-background);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
