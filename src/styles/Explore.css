@@ -6,7 +6,23 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-
+.explore > h1 {
+  font-weight: 800;
+  font-size: 20px;
+  padding: 8px;
+  padding-left: 18px;
+  border-bottom: 1px solid var(--twitter-background);
+  border-top: 1px solid var(--twitter-background);
+  margin: 0;
+  margin-top: 0px !important;
+}
+.whats_hapening {
+  padding-left: 18px;
+  font-size: 10px;
+  margin-top: 20px;
+  border-top: 1px solid var(--twitter-background);
+  border-bottom: 1px solid var(--twitter-background);
+}
 .feed::-webkit-scrollbar {
   display: none;
 }
@@ -30,12 +46,14 @@
   height: 20px;
   margin-left: 40px;
   width: 75%;
+  z-index: 100;
 }
 
 .explore__input > input {
   border: none;
   background-color: var(--twitter-background);
   width: 100%;
+  z-index: 100;
 }
 
 .explore__input > input:focus {

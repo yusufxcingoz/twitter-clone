@@ -1,5 +1,8 @@
 .photo__slide {
   color: black;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  z-index: 0;
 }
 .explore::-webkit-scrollbar {
   display: none;
@@ -12,6 +15,9 @@
 }
 .image_container {
   position: relative;
+  margin-bottom: 8px !important;
+  padding-bottom: 0px !important;
+  z-index: 0;
 }
 .image_text {
   position: absolute;
@@ -21,6 +27,7 @@
   object-fit: cover;
   width: 100%;
   height: 350px;
+  z-index: 0;
 }
 .supplier_name {
   position: absolute;
