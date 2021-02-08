@@ -3,6 +3,14 @@
   align-items: flex-start;
   border-bottom: 1px solid var(--twitter-background);
   padding-bottom: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 600px;
+}
+
+.post:hover {
+  background-color: #f5f3f3;
+  transition: 0.3s;
 }
 
 .post__body {
@@ -18,13 +26,48 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  width: 95%;
+}
+
+.footer__icon {
+  color: #aeb0b1;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.footer__iconComment:hover {
+  background-color: var(--twitter-background);
+  border-radius: 45%;
+  color: var(--twitter-color);
+}
+
+.footer__iconRetweet:hover {
+  background-color: var(--twitter-background);
+  border-radius: 45%;
+  color: #17bf63;
+}
+
+.footer__iconLike:hover {
+  background-color: var(--twitter-background);
+  border-radius: 45%;
+  color: #e0245e;
 }
 
 .post__headerDescription {
+  margin-top: 0;
   margin-bottom: 10px;
   font-size: 15px;
 }
+.post__header {
+  margin-top: 0;
+}
 
+.footer__iconShare:hover {
+  background-color: var(--twitter-background);
+  border-radius: 45%;
+  color: var(--twitter-color);
+}
 .post__headerText > h3 {
   font-size: 15px;
   margin-bottom: 5px;
