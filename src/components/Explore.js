@@ -1,10 +1,18 @@
 import React from "react";
 import "../styles/Explore.css";
+import SearchIcon from "@material-ui/icons/Search";
+import PhotoSlide from "./PhotoSlide";
 
 function Explore() {
   return (
     <div className="explore">
-      <h1>This Is Explore.</h1>
+      <div className="input_background">
+        <div className="explore__input">
+          <SearchIcon />
+          <input placeholder="Search Twitter" type="text" />
+        </div>
+      </div>
+      <PhotoSlide />
     </div>
   );
 }

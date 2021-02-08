@@ -6,6 +6,9 @@
   width: 90%;
 }
 
+.active_link {
+  color: var(--twitter-color) !important;
+}
 .sidebarOption:hover {
   background-color: #e8f5fe;
   border-radius: 30px;

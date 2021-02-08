@@ -10,3 +10,34 @@
 .feed::-webkit-scrollbar {
   display: none;
 }
+.input_background {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  height: 70px;
+  align-items: center;
+  border-bottom: 1px solid var(--twitter-background);
+}
+.explore__input {
+  padding: 0px 10px;
+  border-radius: 20px;
+  background-color: var(--twitter-background);
+  position: sticky;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 20px;
+  margin-left: 40px;
+  width: 75%;
+}
+
+.explore__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+  width: 100%;
+}
+
+.explore__input > input:focus {
+  outline: none;
+}

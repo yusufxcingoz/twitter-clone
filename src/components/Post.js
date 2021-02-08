@@ -7,8 +7,18 @@ import RepeatIcon from "@material-ui/icons/Repeat";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import PublishIcon from "@material-ui/icons/Publish";
 import { Link } from "react-router-dom";
+import ReactPlayer from "react-player";
 
-function Post({ text, avatar, desc, username, name, postid, verified }) {
+function Post({
+  text,
+  avatar,
+  desc,
+  username,
+  name,
+  postid,
+  verified,
+  videoURL,
+}) {
   return (
     <div className="post">
       <div className="post__avatar">
@@ -26,6 +36,7 @@ function Post({ text, avatar, desc, username, name, postid, verified }) {
                 </span>
               </h3>
             </div>
+            <div className="post__video"></div>
             <div className="post__headerDescription">
               <p>{text}</p>
             </div>

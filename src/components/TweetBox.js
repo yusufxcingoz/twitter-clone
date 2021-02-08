@@ -7,6 +7,7 @@ function TweetBox() {
   const [posts, setPosts] = useState([]);
   const [tweetMessage, setTweetMessage] = useState("");
   const [tweetImage, setTweetImage] = useState("");
+  const [videoURL, setVideoURL] = useState("");
 
   const sendTweet = (e) => {
     e.preventDefault();
@@ -17,6 +18,7 @@ function TweetBox() {
       verified: true,
       text: tweetMessage,
       image: tweetImage,
+      url: videoURL,
       avatar:
         "https://pbs.twimg.com/profile_images/1355074377797267456/OmSXuU7U_400x400.jpg",
     });

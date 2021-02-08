@@ -28,6 +28,7 @@ function Feed() {
             verified={posts.verified}
             username={posts.username}
             text={posts.text}
+            videoURL={posts.videoURL}
           />
         ))}
       </div>
