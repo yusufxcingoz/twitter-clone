@@ -5,4 +5,18 @@
   overflow-y: scroll;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  width: 100%;
+}
+.header {
+  border: none !important;
+}
+
+.natifications__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+
+  padding: 0px 10px;
 }

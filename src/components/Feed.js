@@ -4,7 +4,9 @@ import TweetBox from "./TweetBox";
 import Post from "./Post";
 import "../styles/Feed.css";
 import db from "../firebase";
-
+import Sidebar from "./Sidebar";
+import Widgets from "./Widgets";
+import Header from "./Header";
 function Feed() {
   const [posts, setPosts] = useState([]);
 
@@ -16,9 +18,7 @@ function Feed() {
   return (
     <Router>
       <div className="feed">
-        <div className="feed__header">
-          <h2>Home</h2>
-        </div>
+        <Header text="Home" />
 
         <TweetBox />
         {posts.map((posts) => (

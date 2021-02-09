@@ -1,0 +1,53 @@
+.natif_post {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid var(--twitter-background);
+  margin: 0;
+  padding-top: 8px;
+  cursor: pointer;
+}
+.post__headerDescription {
+  display: flex;
+}
+
+.display_name {
+  text-indent: 5px;
+}
+
+.currentUser_name {
+  color: var(--twitter-color);
+  text-indent: 5px;
+}
+
+.post_Action {
+  text-indent: 5px;
+}
+
+.natif_post:hover {
+  background-color: var(--twitter-background);
+}
+.natif_head > h1 {
+  padding: 8px;
+  padding-top: 0px;
+  padding-left: 18px;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.natif_head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.natif_head > p {
+  color: grey;
+  font-size: 12px;
+  margin-right: 2px;
+}
+.natif_head > p {
+  color: grey;
+  font-size: 12px;
+  margin: 0;
+  padding-left: 18px;
+}

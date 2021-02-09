@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.nav_link {
+  font-weight: 800;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 60px;
+  color: #657786;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.nav_link:hover {
+  background-color: #d5ecfa;
+  transition: 0.5s;
+}
+.active_link {
+  border-bottom: 2px solid var(--twitter-color);
+}

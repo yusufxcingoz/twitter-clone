@@ -12,7 +12,7 @@ function SidebarOption({ active, text, Icon }) {
       to={text.toLowerCase()}
     >
       <div className={`sidebarOption ${active && "sidebarOption--active"}`}>
-        <Icon className="sidebar_Icon" />
+        <Icon style={{ color: "black !important" }} className="sidebar_Icon" />
         <h2>{text}</h2>
       </div>
     </NavLink>

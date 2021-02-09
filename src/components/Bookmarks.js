@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/Bookmarks.css";
+import Header from "./Header";
 
 function Bookmarks() {
   return (
     <div className="bookmarks">
-      <h1>Bookmarks</h1>
+      <Header text="Bookmarks" username="@daddy" />
     </div>
   );
 }

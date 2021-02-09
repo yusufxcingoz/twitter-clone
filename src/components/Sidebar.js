@@ -12,26 +12,29 @@ import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import User from "./User";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <Link to="home">
-        <TwitterIcon className="sidebar__twitterIcon" />
-      </Link>
+      <div className="sidebar_links">
+        <Link to="home">
+          <TwitterIcon className="sidebar__twitterIcon" />
+        </Link>
 
-      <SidebarOption Icon={HomeIcon} text="Home" />
-      <SidebarOption Icon={SearchIcon} text="Explore" />
-      <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
-      <SidebarOption Icon={MailOutlineIcon} text="Messages" />
-      <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
-      <SidebarOption Icon={ListAltIcon} text="Lists" />
-      <SidebarOption Icon={PermIdentityIcon} text="Profile" />
-      <SidebarOption Icon={MoreHorizIcon} text="More" />
+        <SidebarOption Icon={HomeIcon} text="Home" />
+        <SidebarOption Icon={SearchIcon} text="Explore" />
+        <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
+        <SidebarOption Icon={MailOutlineIcon} text="Messages" />
+        <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
+        <SidebarOption Icon={ListAltIcon} text="Lists" />
+        <SidebarOption Icon={PermIdentityIcon} text="Profile" />
+        <SidebarOption Icon={MoreHorizIcon} text="More" />
 
-      {/* Button -> Tweet */}
-      <Button variant="outlined" className="sidebar__tweet" fullWidth>
-        Tweet
-      </Button>
+        {/* Button -> Tweet */}
+        <Button variant="outlined" className="sidebar__tweet" fullWidth>
+          Tweet
+        </Button>
+      </div>
     </div>
   );
 }
